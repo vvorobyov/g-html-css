@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Контакты</title>
+</head>
+<body>
+    <ul>
+        <li><a href="index.html">Главная</a></li>
+        <li><a href="catalogue.html">Каталог</a></li>
+        <li><a href="contacts.html">Контакты</a></li>
+    </ul>
+    <hr>
+    <h1>Контакты</h1>
+    <h2>Напишите нам</h2>
+    <form action="#">
+        <fieldset>
+            <legend>Форма обратной связи</legend>
+            <label for="name">Имя:</label><br>
+            <input id="name" name="fio" type="text" placeholder="Иван Иванович"><br>
+            <label for="email">Email</label><br>
+            <input id="email" name="email" type="email" placeholder="email@exemple.com"><br>
+            <label for="subject">Тема</label><br>
+            <select name="subject" id="subject">
+                <option value="1">Вопросы службе доставки</option>
+                <option value="2" selected>Заказ товара</option>
+                <option value="3">Техническая поддержка</option>
+            </select>
+            <br>
+            <textarea name="message" rows="5" placeholder="Текст сообщения" ></textarea><br>
+            <input type="submit" value="Отправить">
+        </fieldset>
+    </form>
+    <h2>Адрес</h2>
+    <p>
+        <b>Телефон:</b> 
+        +79876543210
+    </p>
+    <p>
+        <b>Адрес:</b> 
+        <i>Республика Казахстан, г. Алматы, ул.Назарбаева 80</i>
+    </p>
+    <p>
+        <b>Email:</b>
+        <a href="mailto:support@example.com">support@example.com</a>
+    </p>
+    <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A898cc40794e58ee12de1911e9a1c8962798a12aeb5fd4af1480a8804768ba13c&amp;source=constructor" width="571" height="400" frameborder="0"></iframe>
+    <hr>
+    &copy; Все права защищены
+</body>
+</html>
